@@ -1,0 +1,9 @@
+main {
+  min-height: 95vh;
+}
+
+nav {
+  background: rgba(200,200,200,0.5);
+  color: #eee;
+  margin-bottom: 22px;
+}
