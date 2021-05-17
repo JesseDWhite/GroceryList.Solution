@@ -1,1 +1,13 @@
-<h1>Hi</h1>
+@using GroceryList.Models;
+
+@{
+  Layout = "_Layout";
+}
+<div class="container-fluid">
+  <form action="/stores" method="post">
+    <label for="storeName">Store name</label>
+    <input id="storeName" name="storeName" type="text" class="form-control">
+    <button type="submit" class="btn btn-success">Add</button>
+  </form>
+
+</div>

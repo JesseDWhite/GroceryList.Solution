@@ -44,6 +44,6 @@ namespace GroceryList
   }
   public static class DBConfiguration
   {
-    public static string ConnectionString = "server=localhost;user id = root; password=MorphineSpirder1!;port=3306;database=grocery_list;";
+    public static string ConnectionString = "server=localhost;user id=root; password=MorphineSpider1!;port=3306;database=grocery_list;";
   }
 }

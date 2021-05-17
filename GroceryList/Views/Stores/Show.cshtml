@@ -1,1 +1,16 @@
-<h1>Hi</h1>
+@using GroceryList.Models;
+
+@{
+  Layout = "_Layout";
+}
+
+<h3>Here are all the items in this store:</h3>
+
+<ol>
+  @foreach (Item item in @Model["items"])
+  {
+    <li><a href='/stores/@Model["stores"].Id/items/@item.Id'>@item.Description</a></li>
+  }
+</ol>
+
+<p><a href='/stores/@Model["stores"].Id/items/new'>Add a new item</a></p>
